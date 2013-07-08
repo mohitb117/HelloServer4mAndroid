@@ -2,6 +2,6 @@
 
 package pnnl.prototype.HelloServer4mAndroid;
 
-/* This stub is for using by IDE only. It is NOT the Manifest class actually packed into APK */
+/* This stub is only used by the IDE. It is NOT the Manifest class actually packed into the APK */
 public final class Manifest {
 }

@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 import com.koushikdutta.async.http.*;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 
 public class ServerLink extends Activity
@@ -25,7 +27,8 @@ public class ServerLink extends Activity
     {
         String url="http://130.20.168.67:8080/mohitb117";
 
-        AsyncHttpClient.getDefaultInstance().getString(url, new AsyncHttpClient.StringCallback()
+        AsyncHttpClient.getDefaultInstance().getString(url,
+        new AsyncHttpClient.StringCallback()
         {
             // Callback is invoked with any exceptions/errors, and the result, if available.
 

@@ -8,6 +8,6 @@
             android:layout_height="wrap_content"
             android:text="Ping Server"
             android:id="@+id/pingServer"
-            android:onClick="pingMe"
+            android:onClick="pingServer"
             android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
 </RelativeLayout>

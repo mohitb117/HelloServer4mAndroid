@@ -132,9 +132,6 @@ public class ServerLink extends Activity
         // mId allows you to update the notification later on.
 
                 mNotificationManager.notify(0, mBuilder.build());
-
-
-
     }
     private void registerClient()
     {

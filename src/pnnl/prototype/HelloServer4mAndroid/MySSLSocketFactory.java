@@ -33,10 +33,12 @@ public class MySSLSocketFactory extends SSLSocketFactory
         {
             public void checkClientTrusted(X509Certificate[] chain, String authType) throws CertificateException
             {
+
             }
 
             public void checkServerTrusted(X509Certificate[] chain, String authType) throws CertificateException
             {
+
             }
 
             public X509Certificate[] getAcceptedIssuers()
